@@ -9,7 +9,7 @@ const MORSE_CODE: { [key: string]: string } = {
   'Y': '-.--', 'Z': '--..', ' ': '/'
 };
 
-const MESSAGE = "WELCOME TO THE GRID OF TECHFOSS 2025";
+const MESSAGE = "THEGRID2025";
 
 // Convert to Morse with proper word spacing
 const MORSE_MESSAGE = MESSAGE.split('').map(char => {
