@@ -102,7 +102,7 @@ function App() {
     
     if (cleanedUserAnswer === cleanedMessage) {
       setFeedback('ACCESS GRANTED: SYSTEM COMPROMISED - AUTHENTICATION SUCCESSFUL');
-      window.location.href = "http://geeksforgeeks.org/how-to-take-user-input-in-javascript/";
+      window.location.href = "https://binary-bounty-seven.vercel.app/final-challenge-f1";
     } else {
       setFeedback(`ACCESS DENIED: INVALID DECRYPTION KEY - ATTEMPT ${accessAttempts + 1}/∞`);
       if (accessAttempts % 3 === 2) { // Show hint every 3 failed attempts
