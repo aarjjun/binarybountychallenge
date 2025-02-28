@@ -102,7 +102,7 @@ function App() {
     
     if (cleanedUserAnswer === cleanedMessage) {
       setFeedback('ACCESS GRANTED: SYSTEM COMPROMISED - AUTHENTICATION SUCCESSFUL');
-      alert("calling....")
+      window.location.href = "//redicrect link paste ";
     } else {
       setFeedback(`ACCESS DENIED: INVALID DECRYPTION KEY - ATTEMPT ${accessAttempts + 1}/∞`);
       if (accessAttempts % 3 === 2) { // Show hint every 3 failed attempts
