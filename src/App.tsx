@@ -102,10 +102,7 @@ function App() {
     
     if (cleanedUserAnswer === cleanedMessage) {
       setFeedback('ACCESS GRANTED: SYSTEM COMPROMISED - AUTHENTICATION SUCCESSFUL');
-      const navigate = useNavigate();
-      useEffect(() => {
-      window.location.href = "https://www.geeksforgeeks.org/how-to-take-user-input-in-javascript/";
-    }, [navigate]);
+      alert("calling....")
     } else {
       setFeedback(`ACCESS DENIED: INVALID DECRYPTION KEY - ATTEMPT ${accessAttempts + 1}/∞`);
       if (accessAttempts % 3 === 2) { // Show hint every 3 failed attempts
